@@ -15,6 +15,8 @@
 		9C79865B1F5A4E9800EF11DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7986591F5A4E9800EF11DC /* LaunchScreen.storyboard */; };
 		9C7986661F5A4E9800EF11DC /* week1iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7986651F5A4E9800EF11DC /* week1iOSTests.swift */; };
 		9C7986711F5A4E9800EF11DC /* week1iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7986701F5A4E9800EF11DC /* week1iOSUITests.swift */; };
+		9C79867F1F5A54DF00EF11DC /* toDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79867E1F5A54DE00EF11DC /* toDoListTableViewCell.swift */; };
+		9C7986811F5A643C00EF11DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7986801F5A643C00EF11DC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9C79866C1F5A4E9800EF11DC /* week1iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week1iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7986701F5A4E9800EF11DC /* week1iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week1iOSUITests.swift; sourceTree = "<group>"; };
 		9C7986721F5A4E9800EF11DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C79867E1F5A54DE00EF11DC /* toDoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDoListTableViewCell.swift; sourceTree = "<group>"; };
+		9C7986801F5A643C00EF11DC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9C7986501F5A4E9800EF11DC /* FirstViewController.swift */,
 				9C7986521F5A4E9800EF11DC /* SecondViewController.swift */,
 				9C7986541F5A4E9800EF11DC /* Main.storyboard */,
+				9C7986801F5A643C00EF11DC /* DetailViewController.swift */,
+				9C79867E1F5A54DE00EF11DC /* toDoListTableViewCell.swift */,
 				9C7986571F5A4E9800EF11DC /* Assets.xcassets */,
 				9C7986591F5A4E9800EF11DC /* LaunchScreen.storyboard */,
 				9C79865C1F5A4E9800EF11DC /* Info.plist */,
@@ -264,7 +270,9 @@
 			files = (
 				9C7986531F5A4E9800EF11DC /* SecondViewController.swift in Sources */,
 				9C79864F1F5A4E9800EF11DC /* AppDelegate.swift in Sources */,
+				9C7986811F5A643C00EF11DC /* DetailViewController.swift in Sources */,
 				9C7986511F5A4E9800EF11DC /* FirstViewController.swift in Sources */,
+				9C79867F1F5A54DF00EF11DC /* toDoListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
